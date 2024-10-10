@@ -1,0 +1,27 @@
+<ol>
+  <li>
+    <mat-form-field>
+      <mat-label>What's your name?</mat-label>
+      <input matInput [(ngModel)]="name" />
+    </mat-form-field>
+  </li>
+  <li>
+    <button mat-raised-button (click)="openDialog()">Pick one</button>
+  </li>
+  <li *ngIf="animal">
+    You chose: <em>{{ animal }}</em>
+  </li>
+</ol>
+
+<!-- You directly pass the inputs and listen to the outputs of the component. -->
+<ng-template
+  matDialog
+  [(matDialogVisible)]="visible"
+  (matDialogVisibleChange)="onVisibleChange($event)"
+  [matDialogConfig]="config"
+>
+  <dialog-overview-example-dialog
+    [name]="name"
+    [(animal)]="animal"
+  ></dialog-overview-example-dialog>
+</ng-template>
