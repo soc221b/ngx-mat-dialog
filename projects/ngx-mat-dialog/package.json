@@ -1,0 +1,27 @@
+{
+  "name": "ngx-mat-dialog",
+  "version": "1.0.2",
+  "license": "MIT",
+  "description": "Type-safe Angular Material Dialogs Directive for Angular",
+  "author": "Ernest <>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soc221b/ngx-mat-dialog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soc221b/ngx-mat-dialog/issues"
+  },
+  "homepage": "https://github.com/soc221b/ngx-mat-dialog#readme",
+  "keywords": [
+    "angular",
+    "material"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">= 16.0.0",
+    "@angular/core": ">= 16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
