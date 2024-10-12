@@ -1,6 +1,6 @@
 {
   "name": "ngx-mat-dialog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Type-safe Angular Material Dialogs Directive for Angular",
   "author": "Ernest <>",
